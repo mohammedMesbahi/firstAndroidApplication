@@ -1,7 +1,12 @@
 <resources>
     <string name="app_name">My Application</string>
-    <string name="ok">dsfs dsfgdsfj dfshfsj</string>
-    <string name="title_login">Login Activity</string>
-    <string name="submit_btn">Submit</string>
-    <string name="coypright">\@copyright GL 2023</string>
+    <string name="login">LOGIN</string>
+    <string name="facebook">facebook</string>
+    <string name="twitter">twitter</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="forgot">Forgot password ?</string>
+    <string name="account_dont">Don\'t have an account?</string>
+    <string name="sign_up">SIGN UP</string>
+    <string name="or">OR</string>
 </resources>

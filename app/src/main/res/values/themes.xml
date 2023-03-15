@@ -10,8 +10,18 @@
 
         <!-- Primary brand color. -->
     </style>
-    <style name="customBtn" parent="Widget.AppCompat.ActionButton" >
+
+    <style name="customBtn" parent="Widget.AppCompat.Button" >
+        <item name="android:textAlignment">center</item>
+        <item name="android:paddingStart">20dp</item>
+        <item name="android:drawablePadding">10dp</item>
         <item name="android:textColor">@color/white</item>
-        <item name="android:background">@color/black</item>
+        <item name="android:textAllCaps">false</item>
     </style>
+    <style name="custom_input" parent="Widget.AppCompat.EditText">
+        <item name="android:background">@drawable/bg_input</item>
+        <item name="android:padding">16dp</item>
+        <item name="android:drawablePadding">10dp</item>
+    </style>
+
 </resources>

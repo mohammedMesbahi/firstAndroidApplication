@@ -10,10 +10,10 @@ public class UserDaoMemory implements UserDao{
 
     public UserDaoMemory() {
         userList = new Vector<>();
-        userList.add(new User("user1@gmail.com","user1","1234"));
-        userList.add(new User("user2@gmail.com","user2","1234"));
-        userList.add(new User("user3@gmail.com","user3","1234"));
-        userList.add(new User("user4@gmail.com","user4","1234"));
+        userList.add(new User("user1@gmail.com","1234","user1"));
+        userList.add(new User("user2@gmail.com","1234","user2"));
+        userList.add(new User("user3@gmail.com","1234","user3"));
+        userList.add(new User("user4@gmail.com","1234","user4 "));
 
     }
 

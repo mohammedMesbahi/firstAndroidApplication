@@ -60,8 +60,8 @@ public class MainActivity extends Activity {
       //  button.setText("hello world");
       //  setContentView(button);
         setContentView(R.layout.activity_main);
-        emailInput = findViewById(R.id.login_button);
-        passwordInput = findViewById(R.id.login_button);
+        emailInput = findViewById(R.id.email_input);
+        passwordInput = findViewById(R.id.password_input);
         loginButton = findViewById(R.id.login_button);
         AuthentificationAction authentificationAction  = new AuthentificationAction(this);
         loginButton.setOnClickListener(authentificationAction);

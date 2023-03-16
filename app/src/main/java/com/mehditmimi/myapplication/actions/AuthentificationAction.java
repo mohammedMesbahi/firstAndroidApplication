@@ -28,7 +28,7 @@ public class AuthentificationAction implements View.OnClickListener{
             Toast.makeText(mainActivity, "welcome " + user.getName(), Toast.LENGTH_SHORT).show();
             
         } else {
-            Toast.makeText(mainActivity, "wrong cridintials", Toast.LENGTH_SHORT).show();
+            Toast.makeText(mainActivity, "wrong credintials", Toast.LENGTH_SHORT).show();
         }
     }
 }
